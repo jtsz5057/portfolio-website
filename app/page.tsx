@@ -3,6 +3,7 @@ import SectionDivider from '@/components/section-divider'
 import About from '@/components/about'
 import Skills from '@/components/skills'
 import Contact from '@/components/contact'
+import Experience from '@/components/experience'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <SectionDivider/>
       <About/>
       <Skills/>
+      <Experience/>
       <Contact/>
     </main>
   )
